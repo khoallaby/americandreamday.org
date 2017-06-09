@@ -6,12 +6,31 @@
 section {
 
   &.why {
+    background-color: $color-black;
+
+    h2 {
+      font-size: 210px;
+      font-weight: 300;
+      .big { font-size: 930px; }
+    }
+
+    p {
+      color: white;
+      text-align: left;
+    }
 
   }
   &.declare {
-
+    h2 { font-size: 212px; }
+    h3 {
+      color: $color-black;
+      font-size: 62px;
+      text-transform: unset;
+    }
+    p { font-size: 36px; }
   }
   &.take-action {
 
   }
 }
+

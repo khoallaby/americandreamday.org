@@ -2,10 +2,11 @@ $image-dir: '../images/';
 
 
 $color-red: #f44242;
+$color-black: #1b1b1b;
 $color-blue: #169ae5;
 
 $primary-color: $color-red;
-$body-color: #1b1b1b;
+$body-color: $color-black;
 
 $link-color: $primary-color;
 
@@ -13,7 +14,7 @@ $link-color: $primary-color;
 $body-font-size: 30px;
 $h1-font-size: 213px;
 $h1-small-font-size: 168px;
-$h2-font-size: 212;
+$h2-font-size: 212px;
 $h3-font-size: 32px;
 
 $border-radius: 10px;
