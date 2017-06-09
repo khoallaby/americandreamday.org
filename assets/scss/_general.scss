@@ -35,11 +35,12 @@ a { /*color: $primary-color; */text-decoration: none; }
 a:focus, a:hover { color: inherit; text-decoration: underline; }
 
 .btn {
-  background: $color-red url('../images/icon-pen.png') no-repeat right center;
-  padding: 25px 55px 25px 25px;
-  font-weight: 700;
+  background: $color-red url('../images/icon-pen.png') no-repeat right 10px center;
+  border-radius: 0;
   color: white !important;
   font-size: 34px;
+  font-weight: 700;
+  padding: 25px 75px 25px 25px;
 
 }
 

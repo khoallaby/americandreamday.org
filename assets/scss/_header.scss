@@ -4,21 +4,31 @@
 
 header {
   background: url('../images/bg-header.jpg');
-  height: 100vh;
+  min-height: 100vh;
+  max-height: 1600px;
+
+
+  h2 {
+    color: white;
+    //display: inline;
+    font-size: 27px;
+    font-weight: 500;
+    padding: 200px 0 50px 0;
+  }
 
   h1 {
     @include font('source-sans-pro');
     color: $color-blue;
+    //display: inline;
     font-size: 213px;
+    line-height: .6;
 
     .small { font-size: $h1-small-font-size; }
     .red { color: $color-red; }
   }
 
-  h2 {
-    font-weight: 500;
-    color: white;
-    font-size: 27px;
+  .btn {
+    margin-top: 100px;
   }
 
 
