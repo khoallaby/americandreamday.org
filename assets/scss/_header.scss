@@ -1,0 +1,23 @@
+/*------------------------------------------------------------------
+    Header
+------------------------------------------------------------------*/
+
+header {
+  background: url('../images/bg-header.jpg');
+  height: 100vh;
+
+  h1 {
+    @include font('source-sans-pro');
+    color: $color-blue;
+    font-size: 213px;
+
+    .small { font-size: $h1-small-font-size; }
+    .red { color: $color-red; }
+  }
+
+  h2 {
+    color: white;
+  }
+
+
+}

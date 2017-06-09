@@ -1,0 +1,58 @@
+$image-dir: '../images/';
+
+
+$color-red: #f44242;
+$color-blue: #169ae5;
+
+$primary-color: $color-red;
+$body-color: #1b1b1b;
+
+$link-color: $primary-color;
+
+
+$body-font-size: 30px;
+$h1-font-size: 213px;
+$h1-small-font-size: 168px;
+$h2-font-size: 212;
+$h3-font-size: 32px;
+
+$border-radius: 10px;
+
+
+$shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
+
+
+$font-family: 'Raleway', sans-serif;
+
+
+@mixin font($name: null){
+  @if $name == 'source-sans-pro' {
+    font-family: 'Source Sans Pro', sans-serif;
+  } @elseif $name == 'raleway' {
+    font-family: 'Raleway', sans-serif;
+  } @else {
+    font-family: $font-family;
+  }
+}
+
+
+@mixin rounded-corners($location: null, $radius: null){
+  @if $radius == null {
+    $radius: $border-radius;
+  }
+
+
+  @if $location == 'top' {
+    border-radius: $radius $radius 0 0;
+  } @elseif $location == 'bottom' {
+    border-radius: 0 0 $radius $radius;
+  } @else {
+    border-radius: $radius;
+  }
+}
+
+@mixin img-responsive() {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}

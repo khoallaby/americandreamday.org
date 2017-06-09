@@ -1,0 +1,33 @@
+/*------------------------------------------------------------------
+    Footer
+------------------------------------------------------------------*/
+
+
+footer {
+
+  .contact-container {
+    //background-image: url('');
+    background-position: center top;
+
+
+    .immediate-need {
+      h2 { margin-top: 0; }
+      img { margin-top: 20px; }
+    }
+    .contact-info {
+    }
+  }
+
+
+
+  .social-media {
+    padding-top: 5px;
+
+    .fa-fw {
+      font-size: 40px;
+    }
+    a.social {
+      display: inline-block;
+    }
+  }
+}
