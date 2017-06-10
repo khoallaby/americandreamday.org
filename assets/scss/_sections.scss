@@ -7,11 +7,16 @@ section {
 
   &.why {
     background-color: $color-black;
+    padding: 200px 0;
 
     h2 {
       font-size: 210px;
       font-weight: 300;
-      .big { font-size: 930px; }
+      line-height: 0.9;
+      .big {
+        font-size: 930px;
+        line-height: 0.8;
+      }
     }
 
     p {
@@ -21,13 +26,18 @@ section {
 
   }
   &.declare {
+    padding: 200px 0 200px;
     h2 { font-size: 212px; }
     h3 {
       color: $color-black;
       font-size: 62px;
+      margin: 80px 0 50px;
       text-transform: unset;
     }
-    p { font-size: 36px; }
+    p {
+      font-size: 36px;
+      margin-bottom: 100px;
+    }
   }
   &.take-action {
 

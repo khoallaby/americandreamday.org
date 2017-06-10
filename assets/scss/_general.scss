@@ -42,6 +42,8 @@ a:focus, a:hover { color: inherit; text-decoration: underline; }
   font-weight: 700;
   padding: 25px 75px 25px 25px;
 
+  // bootstrap default image is none, need to redefine
+  &:active { background-image: url('../images/icon-pen.png'); }
 }
 
 
