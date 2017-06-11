@@ -22,6 +22,25 @@
       }
     }
 
+    &.declare {
+      h2 { font-size: 115px; }
+      h3 { font-size: 45px; }
+      p { font-size: 36px; }
+    }
+    &.take-action {
+      h2 {
+        font-size: 190px;
+        .small { font-size: 130px; }
+      }
+      .take-action-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 100%;
+      }
+      .hash-tag {
+        font-size: 45px;
+      }
+    }
   }
 
 
@@ -35,8 +54,12 @@
     font-size: 160px;
   }
   section {
-    &.declare h2 { font-size: 155px; }
-    &.take-action h2 { font-size: 218px; }
+    &.declare {
+      h2 { font-size: 155px; }
+      h3 { font-size: 62px; }
+    }
+    //&.take-action h2 { font-size: 218px; }
+
   }
 
 }
@@ -50,12 +73,12 @@
     .small { font-size: 168px; }
   }
   section {
-    &.declare h2 { font-size: 200px; }
-    &.take-action h2 { font-size: 218px; }
     &.why {
       h2 { font-size: 170px; }
       .logo { text-align: left; }
     }
+    &.declare h2 { font-size: 200px; }
+    &.take-action h2 { font-size: 218px; }
   }
 
 }
@@ -64,10 +87,10 @@
 @media (min-width: 1200px) {
 
   section {
-    &.declare h2 { font-size: 212px; }
     &.why {
       h2 { font-size: 210px; }
     }
+    &.declare h2 { font-size: 212px; }
   }
 }
 
