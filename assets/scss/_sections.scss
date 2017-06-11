@@ -10,11 +10,11 @@ section {
     padding: 200px 0;
 
     h2 {
-      font-size: 210px;
+      font-size: 120px;
       font-weight: 300;
       line-height: 0.9;
       .big {
-        font-size: 930px;
+        font-size: 620px;
         line-height: 0.8;
       }
     }
@@ -23,6 +23,8 @@ section {
       color: white;
       text-align: left;
     }
+
+    .logo { text-align: center; }
 
   }
   &.declare {

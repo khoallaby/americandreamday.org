@@ -12,6 +12,20 @@
     font-size: 118px;
   }
 
+
+  section {
+
+    &.why {
+      h2 {
+        font-size: 210px;
+        .big { font-size: 930px; }
+      }
+    }
+
+  }
+
+
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -36,8 +50,12 @@
     .small { font-size: 168px; }
   }
   section {
-    &.declare h2 { font-size: 212px; }
+    &.declare h2 { font-size: 200px; }
     &.take-action h2 { font-size: 218px; }
+    &.why {
+      h2 { font-size: 170px; }
+      .logo { text-align: left; }
+    }
   }
 
 }
@@ -45,6 +63,12 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
 
+  section {
+    &.declare h2 { font-size: 212px; }
+    &.why {
+      h2 { font-size: 210px; }
+    }
+  }
 }
 
 
