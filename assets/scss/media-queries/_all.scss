@@ -53,8 +53,13 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
-  header h1 {
-    font-size: 160px;
+  header {
+    h1 {
+      font-size: 160px;
+    }
+    h2 {
+      padding-top: 200px;
+    }
   }
   section {
     &.declare {
@@ -89,13 +94,21 @@
   }
   section {
     &.why {
+      padding: 200px 0;
       h2 { font-size: 170px; }
       .logo { text-align: left; }
     }
-    &.declare h2 { font-size: 200px; }
+    &.declare {
+      padding: 200px 0;
+      h2 { font-size: 200px; }
+    }
     &.take-action h2 { font-size: 218px; }
   }
 
+
+  footer {
+    .contact { padding-top: 50px; }
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
