@@ -21,10 +21,10 @@ header {
     @include font('source-sans-pro');
     color: $color-blue;
     //display: inline;
-    font-size: 213px;
-    line-height: .6;
+    font-size: 60px; //213px;
+    line-height: .8;
 
-    .small { font-size: $h1-small-font-size; }
+    .small { font-size: inherit; }
     .red { color: $color-red; }
   }
 

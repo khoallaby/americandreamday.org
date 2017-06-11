@@ -8,15 +8,37 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 
+  header h1 {
+    font-size: 118px;
+  }
+
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
+  header h1 {
+    font-size: 160px;
+  }
+  section {
+    &.declare h2 { font-size: 155px; }
+    &.take-action h2 { font-size: 218px; }
+  }
+
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+
+  header h1 {
+    font-size: 210px;
+    line-height: 0.6;
+    .small { font-size: 168px; }
+  }
+  section {
+    &.declare h2 { font-size: 212px; }
+    &.take-action h2 { font-size: 218px; }
+  }
 
 }
 
