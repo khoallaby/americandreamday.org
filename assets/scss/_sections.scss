@@ -40,7 +40,20 @@ section {
     }
   }
   &.take-action {
-
+    h2 {
+      color: white;
+      font-size: 218px;
+      line-height: 0.6;
+      .small {
+        font-size: 146px;
+      }
+    }
+    .take-action-container {
+      background-color: $color-red;
+      color: white;
+      padding: 50px;
+      min-width: 640px;
+    }
   }
 }
 
