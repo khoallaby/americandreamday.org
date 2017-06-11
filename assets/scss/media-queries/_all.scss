@@ -39,7 +39,6 @@
       .take-action-container {
         padding-left: 20px;
         padding-right: 20px;
-        max-width: 100%;
       }
       .hash-tag {
         font-size: 45px;
@@ -61,6 +60,18 @@
     &.declare {
       h2 { font-size: 155px; }
       h3 { font-size: 62px; }
+    }
+    &.take-action {
+      h2 {
+        font-size: 218px;
+        .small { font-size: 146px; }
+      }
+      .take-action-container {
+        max-width: 700px;
+        //padding: 50px 20px 30px;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
     }
     //&.take-action h2 { font-size: 218px; }
 
