@@ -8,6 +8,10 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 
+  .btn { 
+    font-size: 30px;
+    br { display: none; }
+  }
   header h1 {
     font-size: 118px;
   }
