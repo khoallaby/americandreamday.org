@@ -12,8 +12,8 @@
     font-size: 30px;
     br { display: none; }
   }
-  header h1 {
-    font-size: 118px;
+  header {
+    h1 { font-size: 118px; }
   }
 
 
@@ -57,7 +57,7 @@
     h1 {
       font-size: 160px;
     }
-    h2 {
+    .star-container {
       padding-top: 200px;
     }
   }
@@ -87,10 +87,13 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
-  header h1 {
-    font-size: 210px;
-    line-height: 0.6;
-    .small { font-size: 168px; }
+  header {
+    h1 {
+      font-size: 210px;
+      line-height: 0.6;
+      .small { font-size: 168px; }
+    }
+    .stars { display: inline-block; }
   }
   section {
     &.why {

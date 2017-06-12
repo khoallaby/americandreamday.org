@@ -11,10 +11,12 @@ header {
 
   h2 {
     color: white;
-    //display: inline;
+    display: inline-block;
     font-size: 27px;
     font-weight: 500;
-    padding: 0 0 50px;
+    line-height: 44px;
+    margin: 0 20px;
+    vertical-align: top;
   }
 
   h1 {
@@ -26,6 +28,10 @@ header {
 
     .small { font-size: inherit; }
     .red { color: $color-red; }
+  }
+
+  .star-container {
+    padding: 0 0 50px;
   }
 
   .btn {
