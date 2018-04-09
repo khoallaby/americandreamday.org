@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khoallaby/americandreamday.org.git"
+    "url": "git+https://github.com/khoallaby/thinkshift-americandreamday.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/khoallaby/americandreamday.org/issues"
+    "url": "https://github.com/khoallaby/thinkshift-americandreamday/issues"
   },
-  "homepage": "https://github.com/khoallaby/americandreamday.org#readme"
+  "homepage": "https://github.com/khoallaby/thinkshift-americandreamday"
 }
